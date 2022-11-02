@@ -51,8 +51,7 @@ class PrefixCommandListener:
             if latest_message != latest_message_cached or len(latest_message) != 0: 
                 latest_message_cached = latest_message
                 wait_for_message()
-            else: 
-                pass
+            else: pass
 
             # NOTE:
             # Avoid using latest message cache for 
