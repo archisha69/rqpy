@@ -1,6 +1,5 @@
 # Imports
-import rqpy
-import time
+import rqpy, time
 from rqpy.authorization import register
 from rqpy.authorization import UserClient
 from rqpy.messages import MessageHandler
